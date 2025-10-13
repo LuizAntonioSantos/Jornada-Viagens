@@ -1,3 +1,12 @@
+/* Montserrat Font Import */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Cores globais */
 
 :root{
@@ -10,6 +19,10 @@
 
     --txt-primary-color: #222222;
     --txt-secondary-color: #ffffff;
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-txt-weight: 500;
 }
 
 
