@@ -1,0 +1,44 @@
+/* Montserrat Font Import */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cores globais */
+
+:root {
+    --bg-primary-color: #ffffff;
+    --bg-secondary-color: #f5f5f5;
+    --bg-tertiary-color: #000000;
+
+    --btn-primary-color: #8f0101;
+    --btn-secondary-color: #b81515;
+
+    --txt-primary-color: #222222;
+    --txt-secondary-color: #ffffff;
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-txt-weight: 500;
+}
+
+
+/* Reset CSS */
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+textarea,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
